@@ -2,6 +2,8 @@ import heroBg from "@/assets/hero-bg.jpg";
 import { ArrowDown, Download } from "lucide-react";
 
 const HeroSection = () => {
+  const resumeUrl = `${import.meta.env.BASE_URL}Tarun_Barigala_Resume.pdf`;
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div
@@ -29,7 +31,7 @@ const HeroSection = () => {
             Get in Touch
           </a>
           <a
-            href="/Tarun_Barigala_Resume.pdf"
+            href={resumeUrl}
             download
             className="px-6 py-3 border border-primary text-primary rounded-lg hover:bg-primary/10 transition-colors inline-flex items-center gap-2"
           >
