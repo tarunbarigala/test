@@ -60,6 +60,24 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
+## AI portfolio assistant setup
+
+The site includes an AI assistant section that can run in two modes:
+
+- Local fallback mode (default): works without any API key
+- Live LLM mode: uses OpenAI Responses API
+
+To enable live LLM mode:
+
+```sh
+cp .env.example .env
+```
+
+Then set:
+
+- `VITE_OPENAI_API_KEY`
+- `VITE_OPENAI_MODEL` (optional, default is `gpt-4o-mini`)
+
 ## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.

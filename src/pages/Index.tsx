@@ -6,6 +6,7 @@ import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import EducationSection from "@/components/EducationSection";
 import ContactSection from "@/components/ContactSection";
+import FloatingAIAssistant from "@/components/FloatingAIAssistant";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
       <EducationSection />
       <ContactSection />
       <Footer />
+      <FloatingAIAssistant />
     </div>
   );
 };

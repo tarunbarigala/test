@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Linkedin, Github } from "lucide-react";
+import { Linkedin, Github } from "lucide-react";
 
 const Navbar = () => {
   const links = ["About", "Skills", "Experience", "Projects", "Education", "Contact"];
